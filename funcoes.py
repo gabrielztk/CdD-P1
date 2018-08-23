@@ -10,7 +10,6 @@ def reta(dados_x, dados_y, label_x, label_y):
     b = dados_y.mean() - a*dados_x.mean()
  
     print("Taxa de correlaçâo:", '%06.4f' % (dados_x.corr(dados_y)))
-    print("Coeficiente angular da reta:", '%06.4f' % (a))
     
  
     plt.figure(figsize=(8, 6))
